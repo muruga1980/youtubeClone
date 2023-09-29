@@ -1,0 +1,51 @@
+/*General*/
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  main {
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+
+
+  .video-wrapper {
+    height: 100%;
+    width: 100%;
+    min-height: 225px;
+   }
+
+
+   .scroll-container {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-container::-webkit-scrollbar-button {
+    display: none;
+}

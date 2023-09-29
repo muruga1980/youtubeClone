@@ -1,0 +1,15 @@
+/*.sidebar{height:100vh !important}*/
+
+  
+.nav-pills .nav-link:hover{background-color: red; color: #fff !important;}
+.nav-pills li{padding:10px 0px}
+
+.navbar-toggler{border: 0px !important}
+
+.margleft{margin-left: 1rem}
+
+@media screen and (max-width:768px){
+    .w-50{width:8% !important}
+    .margleft{margin-left: 0px !important}
+}
+
